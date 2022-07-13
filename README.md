@@ -1,8 +1,12 @@
-# spectrometr
+# Spectrometr
 triband fiber-optic laser spectrometr
 
-# hardware
+# Hardware
+see https://tcd1304.wordpress.com/
+
 optical part - 3pcs TCD1304AP (Toshiba CCD-line)
+
+![image](https://user-images.githubusercontent.com/109242312/178824541-b28361f7-9994-4c43-a802-ce1d4a4a84b5.png)
 
 electrical part - Laptop-(ethernet)-Raspberry-(SPI)-NucleoF401RE-TCD1304
 
