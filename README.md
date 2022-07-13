@@ -2,6 +2,9 @@
 triband fiber-optic laser spectrometr
 
 # hardware
+optical part - 3pcs TCD1304AP (Toshiba CCD-line)
+
+electrical part - Laptop-(ethernet)-Raspberry-(SPI)-NucleoF401RE-TCD1304
 
 Here is a firmware for 3 CCDs. The firmware uses SPI, so follow the
 rpi-specific steps on my site. Because the ADC needs time to scan
@@ -14,14 +17,22 @@ and PC2 for the ADC-input for the CCDs.
 The data coming from the nucleo is arranged like this:
 
 buffer[0] = ccd1[1]
+
 buffer[1] = ccd2[1]
+
 buffer[2] = ccd3[1]
+
 buffer[3] = ccd1[2]
+
 buffer[4] = ccd2[2]
+
 buffer[5] = ccd3[2]
 ..
+
 buffer[11082-3] = ccd1[3694]
+
 buffer[11082-2] = ccd2[3694]
+
 buffer[11082-1] = ccd3[3694]
 
 # software
