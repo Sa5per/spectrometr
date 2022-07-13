@@ -1,5 +1,30 @@
 # spectrometr
-triband fiber-optic laser spectrometr 
+triband fiber-optic laser spectrometr
+
+# hardware
+
+Here is a firmware for 3 CCDs. The firmware uses SPI, so follow the
+rpi-specific steps on my site. Because the ADC needs time to scan
+across the output of 3 CCDs, the MCLK is 2,0 MHz for this particular
+firmware (my normal SPI-firmware is 4,0 MHz).
+
+Connect each CCD to the same outputs on the nucleo, and use PC0, PC1
+and PC2 for the ADC-input for the CCDs.
+
+The data coming from the nucleo is arranged like this:
+
+buffer[0] = ccd1[1]
+buffer[1] = ccd2[1]
+buffer[2] = ccd3[1]
+buffer[3] = ccd1[2]
+buffer[4] = ccd2[2]
+buffer[5] = ccd3[2]
+..
+buffer[11082-3] = ccd1[3694]
+buffer[11082-2] = ccd2[3694]
+buffer[11082-1] = ccd3[3694]
+
+# software
 
 data_cmd.py - программа преобразования сырых данных со спектрометра (12 битные числа) в текстовый файл, пригодный для обработки данных в экселе
 
