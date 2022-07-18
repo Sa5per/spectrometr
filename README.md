@@ -66,3 +66,14 @@ Analiser_v4.7 - программа обработки данных с трехк
 
 ![image](https://user-images.githubusercontent.com/109242312/178818780-9b2a03c8-6376-4c6b-b578-5fd83235aaf4.png)
 ![image](https://user-images.githubusercontent.com/109242312/178818856-614c5b17-88ec-4850-89f8-a4da76f7a4d3.png)
+
+Окно программы управления на Raspberry:
+![IMG20220401135538](https://user-images.githubusercontent.com/109242312/179446078-9878d343-ecf9-423a-b536-e28372513f3a.jpg)
+
+
+Конструкция спектрометра:
+![IMG_20210402_170915](https://user-images.githubusercontent.com/109242312/179446144-a094ae2a-3081-4de0-97e3-a899df6f5d76.jpg)
+![IMG_20210409_081330](https://user-images.githubusercontent.com/109242312/179446148-a4c04ff9-0657-4b01-afab-b8096f0bb8e5.jpg)
+
+Налобный датчик:
+![IMG20220401135557](https://user-images.githubusercontent.com/109242312/179446222-6876ccbd-b2fc-4723-ab4c-0a2c4ac6a7a9.jpg)
